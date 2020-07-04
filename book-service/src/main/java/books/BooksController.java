@@ -12,7 +12,8 @@ public class BooksController {
    private static final Book[] books = {
        new Book(1L, "Nemesis", "Isaac Asimov"),
        new Book(2L, "Great Expectations", "Charles Dickens"),
-       new Book(3L, "The Chronicles of Narnia", "C.S. Lewis")
+       new Book(3L, "The Chronicles of Narnia", "C.S. Lewis"),
+       new Book(4L, "The Chronicles of Syria", "Lawrence")
    };
 
    @GetMapping("/books")
